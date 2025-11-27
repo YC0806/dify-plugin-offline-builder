@@ -3,7 +3,6 @@
 ## Dify 插件离线打包工具
 
 [![Python Version](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 🚀 一键将 Dify 插件转换为包含预编译依赖的离线安装包
 
@@ -225,18 +224,6 @@ NGINX_CLIENT_MAX_BODY_SIZE=500M
 - **安全合规**：需要审计所有依赖包，不允许运行时动态下载
 - **加速部署**：预编译依赖可显著加快插件安装速度
 
-### 贡献
-
-欢迎提交 issue 或 pull request 来改进工具：
-
-- 将 `author` 和 `authorized_category` 改为命令行参数
-- 支持更多平台的交叉编译配置
-- 改进错误处理和日志输出
-- 增加对更多包格式的支持
-
-### 许可证
-
-本项目遵循 MIT 许可证。使用或分发前请查看 LICENSE 文件。
 
 ---
 
